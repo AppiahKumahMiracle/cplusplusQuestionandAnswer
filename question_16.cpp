@@ -11,7 +11,7 @@
     that he or she has purchased this month and displays the number of 
     points awarded.
 
-    /* Author by Appiah Kumah Miracle
+    /* Author: By Appiah Kumah Miracle
 
 */
 #include <iostream>

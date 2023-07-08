@@ -6,7 +6,7 @@ arguments and returns the rectangle’s area. Use the function in a
 program that prompts the user to enter the rectangle’s 
 width and length, and then displays the rectangle’s area.
 
-/* Appiah Kumah Miracle
+/* Author: By Appiah Kumah Miracle
 */
 #include <iostream>
 using namespace std;

@@ -6,7 +6,7 @@
     in Celsius, and then display the temperature converted 
     to Fahrenheit.
 
-    /* Author by Appiah Kumah Miracle
+    /* Author: By Appiah Kumah Miracle
 */
 
 #include <iostream>

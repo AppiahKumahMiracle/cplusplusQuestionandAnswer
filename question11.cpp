@@ -27,14 +27,16 @@ using namespace std;
 
     // Calculate areas
     areaOne = lengthOne * widthOne;
-     areaTwo = lengthTwo * widthTwo;
+    areaTwo = lengthTwo * widthTwo;
 
     // Compare areas and display the result
     if (areaOne > areaTwo) {
         cout << "Rectangle one has the greater area." << endl;
-    } else if (areaTwo > areaOne) {
+    } 
+    else if (areaTwo > areaOne) {
         cout << "Rectangle two has the greater area." << endl;
-    } else {
+    } 
+    else {
         cout << "Both rectangles have the same area." << endl;
     }
 

@@ -30,8 +30,8 @@ int main() {
     totalAmount = foodCharge + totalTipAmount + totalTaxAmount;
 
     // Display the amounts
-    cout << "The total tip of (15%) is:\t $" << totalTipAmount << endl;
-    cout << "The total tax of (7%) is:\t $" << totalTaxAmount << endl;
+    cout << "The total tip of 15 per is:\t $" << totalTipAmount << endl;
+    cout << "The total tax of 7 per is:\t $" << totalTaxAmount << endl;
     cout << "The total amount charge is:\t $" << totalAmount << endl;
 
     return 0;

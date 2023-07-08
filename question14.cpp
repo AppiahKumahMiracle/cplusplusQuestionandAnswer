@@ -29,13 +29,16 @@ using namespace std;
     cin >> colorTwo;
 
     // setting up the secondary colors
-     if ((colorOne == "red" && colorTwo == "blue") || (colorOne == "blue" && colorTwo == "red")) {
+     if ((colorOne == "blue" && colorTwo == "red") || (colorOne == "red" && colorTwo == "blue")) {
         cout<< "The secondary color is: purple" <<endl;
-    } else if ((colorOne == "red" && colorTwo == "yellow") || (colorOne == "yellow" && colorTwo == "red")) {
+    } 
+    else if ((colorOne == "red" && colorTwo == "yellow") || (colorOne == "yellow" && colorTwo == "red")) {
         cout<<"The secondary color is: orange"<<endl;
-    } else if ((colorOne == "blue" && colorTwo == "yellow") || (colorOne == "yellow" && colorTwo == "blue")) {
+    } 
+    else if ((colorOne == "yellow" && colorTwo == "blue") || (colorOne == "blue" && colorTwo == "yellow")) {
         cout<<"The secondary color is: green"<<endl;
-    } else {
+    } 
+    else {
         cout<<"Error!!!: Invalid color combination!...Please provide the correct colors."<<endl;
     }
     return 0;
